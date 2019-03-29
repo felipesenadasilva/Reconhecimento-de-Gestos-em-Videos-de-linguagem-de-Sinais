@@ -8,7 +8,7 @@ import numpy as np
 #arquivo com a extensão .mov que pertence ao dataset selecionado. Também utiliza a biblioteca subprocess
 #que permite a execução de comandos externos a linguagem, como se estivesse rodando no prompt de comando
 #do Windos(cmd)
-pasta = 'D:\MestradoCEFET\Topicos\Base_Videos_Versao1\Separados\Todos'
+pasta = '\Off2'
 caminhos = [os.path.join(pasta, nome) for nome in os.listdir(pasta)]
 arquivos = [arq for arq in caminhos if os.path.isfile(arq)]
 #Cria uma lista com o caminho dos arquivos
